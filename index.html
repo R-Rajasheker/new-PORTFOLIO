@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodda rajasheker-portfolio</title>
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODLe1g8iD7IDJ6MeG7kuVSVI__Hc7jrJdHQ&s" class="rounded-full w-8">
+    <link rel="stylesheet" href="./output.css">
+    
+</head>
+<body class=" bg-green-50 overflow-x-hiddenhidden">
+    <nav class=" w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  ">
+        <!-- <h1 class="text-green-600 font-bold px text-3xl  ">RAJASHEKER.</h1> -->
+        <img src="logo.png" alt="logo" class="h-14 bg cursor-pointer mr-14 rounded-full animate-pulse-scale ">
+        
+        <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-4 bg-white shadow-sm bg-opacity-55">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+        <div class="flex justify items-center gap-3 ">
+            <!-- <button><img src="https://img.icons8.com/?size=100&id=45474&format=png&color=000000" alt="" class="w-8  "> </button> -->
+            <a href="#contact" class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 mr-0 ">Contacat
+                <img src="https://img.icons8.com/?size=100&id=J7Nx8vli3nY9&format=png&color=12B886" alt="" class="w-6">
+            </a>
+            <button class="block md:hidden " onclick="openMenu()">
+                <img src="https://img.icons8.com/?size=100&id=w3-HRY0z8wQY&format=png&color=000000" alt="" class=" w-6">
+            </button>
+        </div>
+        <!-- mobile menue -->
+         <ul id="sidemenu" class="flex md:hidden flex-col py-20 px-10 fixed -right-64 top-0 bottom-0 w-60 z-50 h-screen  bg-blue-200 transition duration-500 gap-4">
+
+            <div class="absolute top-4 right-2 cursor-pointer border-white" onclick="closeMenu()">
+                <img src="https://img.icons8.com/?size=100&id=79023&format=png&color=000000" alt="" class="w-8">
+            </div>
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()">About me</a></li>
+            <!-- <li><a href="#services" onclick="closeMenu()">Services</a></li> -->
+            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contacat me</a></li>
+         </ul>
+    </nav>
+
+    <div id="home" class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODLe1g8iD7IDJ6MeG7kuVSVI__Hc7jrJdHQ&s" alt="" class="rounded-full w-32 ">
+        <h3 class="flex item-center gap-2 text-2xl md:text-3xl mb-3 animate-bounce-custom ">Hi! I'm Rodda Rajasheker👋🏻. </h3>
+        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-semibold">Frontend web developer</h1>
+        <p class="max-w-2xl mx-auto">A motivated fresher with hands-on experience in crafting dynamic websites and a strong desire to
+             learn and grow in both frontend and full-stack development</p>
+
+        <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
+            <a href="#contact"
+            class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#179e83] to-[#96da20] text-black flex items-center gap-2">contact me
+            <img src="https://img.icons8.com/?size=100&id=59854&format=png&color=1A1A1A" alt="" class="w-6">
+        </a>
+
+            <a href="./Rodda Rajasheker.docx" download
+            class="px-10 py-3 border rounded-full border-gray-600 bg-blue-100 flex items-center gap-2">
+            my resume <img src="https://img.icons8.com/?size=100&id=770&format=png&color=12B886" alt="" class="w-6"> </a>
+            
+        </div>
+    </div>
+
+
+    <!-- about me -->
+     <div id="about" class="mb-2 w-full px-[12%] py-10 scroll-mt-16">
+        <h4 class="text-center mb-2 text-lg">Introduction</h4>
+        <h2 class="text-center text-5xl font-semibold">About me</h2>
+
+        <div class=" flex  flex-col lg:flex-row items-center gap-20 my-12">
+            <div class="max-w-max mx-auto relative">
+                <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_99a90cc54aeed584bc62345017af5f7a.webp" alt="" class="w-64 sm:w-80 rounded-full max-w-none  ">
+            </div>
+            
+            <div class="flex-1">
+                <p class="mb-8 max-w-2xl">Ambitious Full Stack Developer with a specialization in frontend development, expert in  Tailwind CSS.
+                     Skilled in problem-solving, committed to continuous learning, and delivering impactful solutions.
+                      Eager to contribute innovative solutions and adapt to new challenges within a collaborative and forward-thinking team.</p>
+
+                <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-green-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#179e83]">
+                        <img src="https://img.icons8.com/?size=100&id=VDjVz2EbbENq&format=png&color=000000" alt="" class="w-10 mt-3">
+                        <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
+                        <p class="text-gray-600 text-sm">HTML, CSS, JAVASCRIPT, TAILWINDCSS, JAVA</p>
+                    </li>
+
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-green-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#179e83]">
+                        <img src="https://img.icons8.com/?size=100&id=tP3OXTLBOXKl&format=png&color=12B886" alt="" class="w-10 mt-3">
+                        <h3 class="my-4 font-semibold text-gray-700">Education</h3>
+                        <p class="text-gray-600 text-sm">Bachelor of engineering in computer science <span class="font-semibold">@2021-2025</span></p>
+                    </li>
+
+                    <li id="projects" class="border-[0.5px] border-gray-400 rounded-xl p-6  hover:bg-green-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#179e83]">
+                        <img src="https://img.icons8.com/?size=100&id=AAbwnmso6SVO&format=png&color=12B886" alt="" class="w-10 mt-3">
+                        <h3 class="my-4 font-semibold text-gray-700">Projects</h3>
+                        <!-- <p class="text-gray-600 text-sm">
+                            <p>Hospital Management system </p>
+                            <p>Realestate website</p>
+                            <p>Dictionary extension</p> 
+                             
+                        </p> -->
+                        <ul class="text-gray-600 text-sm">
+                            <li class="text-black cursor-pointer   hover:text-blue-500"><a href="https://r-rajasheker.github.io/perfectHo/"></a>🔗 Realestate website</li>
+                            <li>Hospital Management system </li>
+                            <li>Dictionary extension</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4 class="my-6 text-gray-700 font-serif">Tools i use</h4>
+                <ul class="flex items-center gap-3 sm:gap-5">
+                    <li class="flex items-center justify-center w-10 sm:w-12 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="https://apps.pardus.org.tr/files/pngicons/code.png" alt="" class="  w-8  sm:w-12">
+                    </li>
+
+                    <li class="flex items-center justify-center w-10 sm:w-12 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="https://banner2.cleanpng.com/20180404/zww/avhw2p7dx.webp" alt="" class="  w-8  sm:w-10">
+                    </li>
+
+                    <li class="flex items-center justify-center w-10 sm:w-12 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFWe05wOn786eN4QIPiYnUz9kzUEJ3kdkeJRFidggaCJe36DtX7Er_pGgLPOb8w-mS9XI&usqp=CAU" alt="" class="  w-8  sm:w-12">
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+     </div>
+
+     <!-- contact me -->
+      <div id="contact" class="scroll-mt-24">
+        <h4 class="text-center mb-2 text-lg">Connect with me</h4>
+        <h2 class="text-center  text-5xl font-semibold">Get in touch</h2>
+
+        <form method="post" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto">
+
+            <input type="hidden" name="access_key" value="475766c3-aac3-4854-af5d-ac712fa13c07">
+           <div class="grid grid-cols-2 gap-6 mt-10 mb-8">
+            <input type="text" placeholder="Enter your name" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white" required name="name">
+            <input type="email" placeholder="Enter your email" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white" required name="email">
+           </div>
+           <textarea rows="7" placeholder="Enter your message" class="w-full p-5 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6" required name="message"></textarea>
+           <button class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 ">Submit</button>
+        </form>
+      </div>
+
+      <!-- footer -->
+       <div class="mt-20"> 
+        <div class="text-center">
+            <img src="logo.png" alt="" class="h-12 w-auto
+             rounded-full mx-auto mb-2">
+            <div class="w-max flex items-center gap-2 mx-auto ">
+               <img src="https://img.icons8.com/?size=100&id=124379&format=png&color=12B886" alt="" class="w-8"> 
+                mrroddarajashekar@gmail.com
+            </div>
+        </div>
+       </div>
+       
+       <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%]
+       mt-12 py-6">
+        <p>©2025 Rodda Rajasheker.All rights reserved.</p>
+        <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+       </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
